@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'AspectRatio/aspect_ratio.dart';
-import 'constrained_box/constrained_box.dart';
+import 'expanded/expanded.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -9,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomConstrainedBox(),
+      home: CustomExpanded(),
     );
   }
 }
