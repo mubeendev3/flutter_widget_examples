@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'expanded/expanded.dart';
+import 'flexible/flexible.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomExpanded(),
+      home: CustomFlexible(),
     );
   }
 }
