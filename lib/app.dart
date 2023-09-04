@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'fitted_box/fitted_box.dart';
-import 'flexible/flexible.dart';
+import 'fractionally_sized_box/fractionally_sized_box.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -8,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomFittedBox(),
+      home: CustomFractionallySizedBox(),
     );
   }
 }
