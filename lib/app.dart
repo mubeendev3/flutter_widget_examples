@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'expanded/expanded.dart';
+import 'fitted_box/fitted_box.dart';
 import 'flexible/flexible.dart';
 
 class MyApp extends StatelessWidget {
@@ -9,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomFlexible(),
+      home: CustomFittedBox(),
     );
   }
 }
