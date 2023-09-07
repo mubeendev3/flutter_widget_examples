@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'list_view/list_view_custom.dart';
 import 'list_view/list_view_separated.dart';
 
 class MyApp extends StatelessWidget {
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomListViewSeparated(),
+      home: ListViewCustom(),
     );
   }
 }
