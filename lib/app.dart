@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_examples/scroll_controller/scroll_controller.dart';
+
+import 'grid_view/grid_view.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: CustomScrollController(),
+    return const MaterialApp(
+      home: CustomGridView(),
     );
   }
 }

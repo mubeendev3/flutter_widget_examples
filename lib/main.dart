@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_examples/app.dart';
-
-import 'AspectRatio/aspect_ratio.dart';
-import 'Drawer/user_accounts_drawer_header.dart';
+import 'grid_view/grid_view.dart';
 
 void main() {
   runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: CustomGridView(),
+    );
+  }
 }
