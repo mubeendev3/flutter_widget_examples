@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'absorb_pointer/absorb_pointer.dart';
-import 'grid_view/grid_view.dart';
+import 'dismissible/dismissible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomAbsorbPointer(),
+      home: CustomDismissible(),
     );
   }
 }
