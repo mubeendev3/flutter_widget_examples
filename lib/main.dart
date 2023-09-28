@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'draggable_and_dragTarget/draggable_and_dragtarget.dart';
+import 'gesture_detector/gesture_detector.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomDragWidget(),
+      home: CustomGestureDetector(),
     );
   }
 }
